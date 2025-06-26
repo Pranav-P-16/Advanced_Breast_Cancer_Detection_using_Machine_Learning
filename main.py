@@ -16,4 +16,9 @@ dataframe['label']=dataset.target
 
 # M-malignant, B-benign
 dat1=dataframe.groupby('label').mean()
-print(dat1)
+Xaxis=dataframe.drop(columns='label',axis=1)
+Yaxis=dataframe['label']
+
+#Splitting training data and testing data
+Xtrain,Xtest,Ytrain,Ytest=train_test_split(Xaxis,Yaxis,test_size=0.2,random_state=2)
+print(Xaxis.shape,Xtrain.shape,Xtest.shape)
