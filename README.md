@@ -3,7 +3,7 @@ Presenting Advanced Breast Cancer Detection system using machine learning in Pyt
 
 The dataset used contains 569 samples with 30 features related to cellular characteristics such as radius, texture, perimeter, and smoothness, along with labels indicating whether the tumor is benign or malignant.
 
-Key Python libraries like NumPy, Pandas, and scikit-learn are used throughout. The logistic regression model is trained on 80% of the data and tested on the remaining 20%, achieving high accuracy scores (around 95% for training and 93% for testing). 
+Key Python libraries like NumPy, Pandas, and scikit-learn are used throughout. The logistic regression model is trained on 80% of the data and tested on the remaining 20%, achieving high accuracy scores (96.9% for training and 93% for testing). 
 
 ### Highlights  
 - 🏥 Highlights the medical significance of classifying breast tumors as benign or malignant.  
